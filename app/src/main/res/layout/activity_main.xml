@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="emovie.com.emovie.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#1a1a31"
+        android:id="@+id/frameLayout">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Lion King"
+            android:id="@+id/textView"
+            android:layout_gravity="left|bottom"
+            android:textColor="#d6cbcb"
+            android:textSize="30sp"
+            android:gravity="center" />
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/mobile"
+        android:layout_marginTop="300dp" />
+</RelativeLayout>
